@@ -1,0 +1,75 @@
+
+
+.m-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+   
+}
+.container{
+    height: 220px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: aqua;
+}
+.subcontainer{
+    height: 30px;
+    width: 350px;
+    /* border:2px solid black; */
+    display: flex;
+    justify-content: center;
+    
+}
+.subcontainer2{
+    height: 30px;
+    width: 350px;
+    /* border:2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+.text{
+    font-size: larger;
+    padding-left: 15px;
+    padding-top: 8px;
+}
+.task{
+     padding-top: 20px;
+}
+
+.t{
+    background-color: rgb(34, 177, 177);
+    border:2px solid black;
+    height: 20px;
+    width: 150px;
+    padding-left: 140px;
+    margin-top: 10px;
+    border-radius: 3px;
+    margin-left: 25px;
+}
+.add{
+    height: 25px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: paleturquoise;
+    margin-left: 2px;
+}
+.ip-text{
+    font-size: 15px; 
+}
+input{
+    /* border:2px solid black; */
+    height: 20px;
+    border-radius: 2px;
+}
+.img{
+    height: auto;
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 15px;
+    background-image: url(shop.png);
+    background-size: cover;
+    border-radius: 2px;
+}
