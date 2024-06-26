@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const taskContainer = document.querySelector(".task-container");
 
     addButton.addEventListener("click", addTask);
-
     function addTask() {
         const taskText = taskInput.value.trim();
         
